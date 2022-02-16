@@ -1,0 +1,63 @@
+{
+  "name": "bcdapps-site",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "muhammadayaz33 <ayazmuhammad33@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development NODE_APP_MODE=app webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production NODE_APP_MODE=app webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "vee-validate": "^2.1.7",
+    "vue": "^2.4.2",
+    "vue-carousel": "^0.17.0",
+    "vue-fullpage.js": "^0.1.1",
+    "vue-gallery-slideshow": "^1.3.0",
+    "vue-js-modal": "^1.3.28",
+    "vue-load-image": "^0.1.7",
+    "vue-multiselect": "^2.1.3",
+    "vue-router": "^3.0.2",
+    "vue-select": "^2.5.1",
+    "vue-single-select": "^1.0.29"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-env": "^1.6.0",
+    "compression-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.30.1",
+    "lodash": "^4.17.11",
+    "lodash-webpack-plugin": "^0.11.4",
+    "node-sass": "^4.5.3",
+    "optimize-css-assets-webpack-plugin": "^3.0.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "url-loader": "^0.5.9",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "^3.5.4",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
